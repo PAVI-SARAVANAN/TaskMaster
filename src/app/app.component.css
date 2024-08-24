@@ -1,0 +1,34 @@
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   margin: 1rem 2rem;
+    color: #4834A0;
+    font-family: 'Merriweather', serif;
+  
+}
+.flex-item-1{
+    width: 28rem;
+}
+.flex-item-2{
+    width: 70rem;
+}
+h4{
+    margin-top: 1rem;
+}
+@media(max-width:640px){
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+        font-family: 'Merriweather', serif;
+    }
+    .flex-item-1{
+        width: auto;
+    }
+    .flex-item-2{
+        width: auto;
+    }
+   
+
+}

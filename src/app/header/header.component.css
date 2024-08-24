@@ -1,0 +1,34 @@
+header{
+ 
+   background-image: linear-gradient( #dbdbf0,	 #e1e1f2, #ededf7);
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 8px;
+}
+
+img{
+    width: 4.5rem;
+    object-fit: contain;
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    color: #4834A0;
+    font-family: 'Merriweather', serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: #4834A0;
+    font-family: 'Merriweather', serif;
+}
