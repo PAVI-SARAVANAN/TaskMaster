@@ -6,7 +6,7 @@
 * Add New Task Form - A form which allows the user to add/create a task and assign it to the user. Once added, the new task will appear in the user's task list.
 * Task List - A component which shows the list of user tasks
 
-🎯To-do list(Iteration 2):
+🎯 To-do list (**Iteration 2**):
 * Adding Routers to navigate between components
 * Users Authentication Setup
 
