@@ -7,8 +7,8 @@
 * Task List - A component which shows the list of user tasks
 
 🎯To-do list(Iteration 2):
-* Adding Routers for navigating between components
-*  Users Authentication Setup
+* Adding Routers to navigate between components
+* Users Authentication Setup
 
 
 
