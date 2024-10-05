@@ -8,10 +8,17 @@ main{
   
 }
 .flex-item-1{
-    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin: 1rem 0rem;
+    width: 30%;
 }
 .flex-item-2{
-    width: 70rem;
+    display: grid;
+    margin: 1rem 0rem;
+    width: 70%;
+    border-radius: 5px;
 }
 h4{
     margin-top: 1rem;

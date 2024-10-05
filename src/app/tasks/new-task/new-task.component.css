@@ -10,8 +10,8 @@
   
   dialog {
     width: 90%;
-    max-width: 30rem;
-    background-color: #5a456e;
+    max-width: 40rem;
+    background-color: #45157f;
     border-radius: 6px;
     border: none;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
@@ -23,13 +23,15 @@
   h2 {
     margin: 0;
     color: #d0c2e1;
+    text-align: center;
   }
   
   label {
     display: block;
     font-weight: bold;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: #d0c2e1;
+    padding-bottom: 0.4rem;
   }
   
   input,

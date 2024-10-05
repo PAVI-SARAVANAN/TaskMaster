@@ -1,12 +1,12 @@
 <app-header></app-header>
 <main>
-    <div class="flex-item-1">
+    <section class="flex-item-1">
     @for (everyUser of user; track everyUser.id ){
         <app-user [users]="everyUser" [Selected] = "everyUser.id === selectedUserId"  (select) = onSelectUser($event) >
         </app-user>
     }    
-    </div>
-    <div class="flex-item-2">
+    </section>
+    <section class="flex-item-2">
     @if(SelectedUser){
       <app-tasks [name] = "SelectedUser.name" [userid] ="SelectedUser.id" />
 
@@ -15,7 +15,7 @@
         <h4>Select an User to view the tasks</h4>
     }
         
-    </div>
+    </section>
 </main>
 
 <router-outlet />
